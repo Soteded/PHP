@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+}
+h1{
+    color:aquamarine;
+}
+p, h2 {
+    color:antiquewhite;
+}
+a {
+    color:antiquewhite;
+}
+a:hover {
+    color: orchid;
+}

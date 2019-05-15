@@ -1,18 +1,17 @@
 <html>
 	<head>
-		<?php
+	<?php
 		$heure = date('H');
 		switch ($heure) {
 			case $heure < 7:
-				include("head.html");
+				echo("<link rel='stylesheet' href='style.css' type='text/css'>");
 				break;
 			case 19 < $heure:
-				include("head.html");
+				echo("<link rel='stylesheet' href='style.css' type='text/css'>");
 				break;
 			default:
 				break;
-		}
-		?>
+		}?>
 	</head>
 	<body>
 		<h1>Météo à Paris</h1>
